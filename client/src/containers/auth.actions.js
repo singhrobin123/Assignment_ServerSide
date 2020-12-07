@@ -1,5 +1,5 @@
 import axios from "axios";
-import { GET_ERRORS, SET_AUTH, SET_ALL_COURSES, SOMETHING_WRONG } from "./auth.constants.js";
+import { GET_ERRORS, SET_AUTH, SET_ALL_COURSES, SOMETHING_WRONG } from "../actions/constants.js";
 import { formatDate } from "../utility";
 
 export const getAllCourses = () => (dispatch) => {

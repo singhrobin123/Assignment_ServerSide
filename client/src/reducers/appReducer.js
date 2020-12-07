@@ -2,7 +2,7 @@ import {
     SET_AUTH,
     SET_ALL_COURSES,
     SOMETHING_WRONG,
-} from "../actions/types";
+} from "../actions/constants";
 
 
 const isEmpty = require("is-empty");
